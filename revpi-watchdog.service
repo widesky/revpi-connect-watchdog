@@ -1,0 +1,8 @@
+[Unit]
+Description=RevPi Connect SE Watchdog service
+
+[Service]
+ExecStart=/usr/local/sbin/revpi-watchdog.sh
+
+[Install]
+WantedBy=multi-user.target
